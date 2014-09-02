@@ -1,0 +1,79 @@
+Type RET on an entry to view its full documentation.
+
+Buffer-menu-save	      M-x ... RET
+   Mark the buffer on this Buffer Menu line for saving.
+abbrev-edit-save-buffer	      M-x ... RET
+   Save all user-level abbrev definitions in current buffer.
+abbrev-edit-save-to-file      M-x ... RET
+   Save all user-level abbrev definitions in current buffer to FILE.
+ac-comphist-save	      M-x ... RET
+   (not documented)
+auto-save-mode		      M-x ... RET
+   Toggle auto-saving in the current buffer (Auto Save mode).
+basic-save-buffer	      M-x ... RET
+   Save the current buffer in its visited file, if it has been
+   modified.
+bookmark-save		      <menu-bar> <edit> <bookmark> <save>
+   Save currently defined bookmarks.
+clipboard-kill-ring-save      M-x ... RET
+   Copy region to kill ring, and save in the X clipboard.
+customize-save-customized     M-x ... RET
+   Save all user options which have been set in this session.
+customize-save-variable	      M-x ... RET
+   Set the default for VARIABLE to VALUE, and save it for future
+   sessions.
+customize-saved		      <menu-bar> <options> <customize> <customize-saved>
+   Customize all saved options and faces.
+customize-unsaved	      M-x ... RET
+   Customize all options and faces set in this session but not saved.
+desktop-save		      M-x ... RET
+   Save the desktop in a desktop file.
+desktop-save-in-desktop-dir   M-x ... RET
+   Save the desktop in directory `desktop-dirname'.
+desktop-save-mode	      M-x ... RET
+   Toggle desktop saving (Desktop Save mode).
+dired-flag-auto-save-files    M-x ... RET
+   Flag for deletion files whose names suggest they are auto save
+   files.
+do-auto-save		      M-x ... RET
+   Auto-save all buffers that need it.
+ebrowse-save-tree	      M-x ... RET
+   Save current tree in same file it was loaded from.
+ebrowse-save-tree-as	      M-x ... RET
+   Write the current tree data structure to a file.
+erc-save-buffer-in-logs	      M-x ... RET
+   Append BUFFER contents to the log file, if logging is enabled.
+handle-save-session	      M-x ... RET
+   Handle the save_yourself event from a session manager.
+ispell-pdict-save	      M-x ... RET
+   Check to see if the personal dictionary has been modified.
+kill-ring-save		      <menu-bar> <edit> <copy>, M-w, <C-insert>, <C-insertchar>
+   Save the region as if killed, but don't kill it.
+menu-bar-kill-ring-save	      M-x ... RET
+   Save the region as if killed, but don't kill it.
+menu-bar-options-save	      <menu-bar> <options> <save>
+   Save current values of Options menu items using Custom.
+mouse-kill-ring-save	      M-x ... RET
+   Copy the region between point and the mouse click in the kill ring.
+mouse-save-then-kill	      M-x ... RET
+   Set the region according to CLICK; the second time, kill it.
+mouse-secondary-save-then-kill <M-mouse-3>
+   Set the secondary selection and save it to the kill ring.
+save-buffer		      <menu-bar> <file> <save-buffer>, C-x C-s
+   Save current buffer in visited file if modified.
+save-buffers-kill-emacs	      M-x ... RET
+   Offer to save each buffer, then kill this Emacs process.
+save-buffers-kill-terminal    <menu-bar> <file> <exit-emacs>, C-x C-c
+   Offer to save each buffer, then kill the current connection.
+save-some-buffers	      C-x s
+   Save some modified file-visiting buffers.  Asks user about each
+   one.
+savehist-mode		      M-x ... RET
+   Toggle saving of minibuffer history (Savehist mode).
+slime-repl-save-history	      M-x ... RET
+   Simply save the current SLIME REPL history to a file.
+slime-repl-save-merged-history M-x ... RET
+   Read the history file, merge the current REPL history and save it.
+toggle-save-place-globally    <menu-bar> <options> <save-place>
+   Toggle whether to visit files of previous session when restarting
+   Emacs.
